@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<HTML> 
-    <head> 
-        <title>JOAO-FORMULARIO</title>
-
-<style>
-        body{
+body{
 	font-family: Arial, sans-serif;
 	background-image: url('https://th.bing.com/th/id/R.eba17213ca6bd9d18b56b7f04e51d100?rik=zmXtUlGOaCqNKA&riu=http%3a%2f%2f3.bp.blogspot.com%2f-IOflYVYUtm8%2fTcA0b88ffNI%2fAAAAAAAABbk%2ffbtII_JX9Cg%2fs1600%2fabstrato-tons-de-azul-imagens-imagem-de-fundo-wallpaper-para-pc-computador-tela-gratis-ambiente-de-trabalho.jpg&ehk=2hLThAcipipLwCRwatLCwpXvOssNFN%2bM562R9MnzxSo%3d&risl=&pid=ImgRaw&r=0');	
 	padding: 20px;
@@ -47,31 +41,3 @@ buttom{
 	margin-top: 20px;
 	padding: 10px;
 }
-
-</style>
-        
-
-    </head>
-    <body>
-
-   <div class="caixa-formulario">
-   
-       <h1>Formulário</h1>
-	   <p>Deixe aqui a sua dúvida</p>
-	   
-	   <form>
-	   <label for="nome-usuario"> 1.Nome:<label>
-	   <input type="text" id="nome-usuario" placeholder="digite aqui seu nome...">
-	      <label for="nome-usuario"> 2.E-mail:<label>
-	   <input type="text" id="email" placeholder="digite aqui seu email...">
-	   
-	   <label for="msg-usuario"> 3.Mensagem:</label>
-	   <textarea id="msg-usuario"></textarea>
-
-       <button type="submit">Enviar</button>
-	   
-	   </form>
-	        </div>
-
-    </body>
-</HTML>
